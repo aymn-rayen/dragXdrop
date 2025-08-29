@@ -122,3 +122,92 @@ h2 {
         width: 90%;
     }
 }
+
+
+.box {
+    position: relative;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin: 10px;
+    background: #fff;
+    min-height: 120px;
+}
+
+.delete-box {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    background: transparent;
+    color: #777;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    transition: color 0.2s ease;
+}
+
+.delete-box:hover {
+    color: red;
+}
+.box {
+    position: relative;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    margin: 10px;
+    background: #fff;
+}
+
+#addBoxBtn {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+    background: linear-gradient(135deg, #4CAF50, #45A049);
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.15);
+}
+
+#addBoxBtn:hover {
+    background: linear-gradient(135deg, #45A049, #3e8e41);
+    transform: translateY(-2px);
+}
+
+
+/* Delete Text Button */
+.delete-text-btn {
+    background: #8e0202;
+    color: #ebd8d8;
+    border: none;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    cursor: pointer;
+    margin-left: 8px;
+    transition: background 0.3s ease;
+}
+
+.delete-text-btn:hover {
+    background: #ee3434;
+}
+
+/* Style text item with delete button */
+.item {
+    background: #7976ad;
+    padding: 8px;
+    margin: 6px 0;
+    color: #fff;
+    border-radius: 6px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: transform 0.2s ease;
+}
